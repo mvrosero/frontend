@@ -13,6 +13,9 @@ import API from "./pages/API";
 
 import Navigation from "../src/pages/Navigation";
 import Section from "../src/pages/Section";
+import Portfolio from "./pages/Portfolio";
+import Blogs from "./pages/Blogs";
+import Interests from "./pages/Interests";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/api" element={<API />} />
                 <Route path="/section" element={<Section />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/blogs" element={<Blogs />} />
+                <Route path="/interests" element={<Interests />} />
               </Routes>
             </Col>
           </Row>
