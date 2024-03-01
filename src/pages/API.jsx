@@ -8,8 +8,7 @@ import ModalFooter from "react-bootstrap/ModalFooter";
 
 import Table from 'react-bootstrap/Table';
 
-function API() {
-
+export const API = () => {
     const [posts, setPosts] = useState([])
 
     useEffect(()=> {
@@ -22,8 +21,8 @@ function API() {
         })
     }
 
-  return (
-    <div>
+    return (
+        <div>
         <h5> API Page </h5>
         <div className="container">
             <div className="row">
@@ -60,8 +59,8 @@ function API() {
         </div>
 
     </div>
-  );
-
+    )
 }
+
 
 export default API;

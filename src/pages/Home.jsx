@@ -1,13 +1,23 @@
-import * as React from "react";
+import React from "react";
+import Button from 'react-bootstrap/Button';
+import "./Home.css";
 
-function Home() {
 
+const Home = () => {
   return (
-    <div>
-        <h5> Home Page </h5>
+    <div className="home-page">
+      <div className="home-content">
+        <div>
+        <div className="center-content">
+        <h3>
+              micha’s college life
+          </h3>
+          <Button className="custom-button" variant="outline-light" href="section"> VIEW </Button> 
+        </div>
+        </div>
+      </div>
     </div>
   );
-
-}
+};
 
 export default Home;

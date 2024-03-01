@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300"); 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+
+.education-body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Lato';
+    font-weight: bolder;
+    color: #E03F85 !important;
+    text-align: center;
+}
+
+
+.custom-tabs .nav-link {
+    color: #333;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .custom-tabs .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .custom-tabs .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .custom-tabs .tab-content {
+    border: 1px solid #dee2e6;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+  }
+  

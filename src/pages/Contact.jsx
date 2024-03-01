@@ -1,13 +1,14 @@
 import * as React from "react";
 
+
 function Contact() {
-
   return (
-    <div>
-        <h5> Contact Page </h5>
-    </div>
+    <>
+      <h1>Contact</h1>
+      <p>Hello there.<br />How do you do?</p>
+    </>
   );
-
-}
+ }
+ 
 
 export default Contact;

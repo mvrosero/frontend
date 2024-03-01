@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300"); 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.section-body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.section-page {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.card-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Ensure equal width columns */
+    grid-column-gap: 100px;
+    grid-row-gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #E03F85;
+    margin-left: 20px; 
+}
+
+.section-label {
+    font-family: 'Quicksand';
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section-card-one {
+    background-color: #FFFFE8;
+    background-image: url('../components/images/education.png'); 
+    height: 20vh;
+    width: 43vw;
+    background-size: 100% 100%; 
+}
+
+.section-card-two {
+    background-color: #FFFFE8;
+    background-image: url('../components/images/portfolio.png'); 
+    height: 20vh;
+    width: 43vw;
+    background-size: 100% 100%; 
+}
+
+.section-card-three {
+    background-color: #FFFFE8;
+    background-image: url('../components/images/blogs.png'); 
+    height: 20vh;
+    width: 43vw;
+    background-size: 100% 100%; 
+}
+
+.section-card-four {
+    background-color: #FFFFE8;
+    background-image: url('../components/images/interests.png'); 
+    height: 20vh;
+    width: 43vw;
+    background-size: 100% 100%; 
+}
+
+.section-card-five {
+    background-color: #FFFFE8;
+    background-image: url('../components/images/about.png');
+    height: 20vh;
+    width: 43vw;
+    background-size: 100% 100%; 
+}
+
+.section-card-six {
+    background-color: #FFFFE8;
+    background-image: url('../components/images/contact.png'); 
+    height: 20vh;
+    width: 43vw;
+    background-size: 100% 100%; 
+}
+
+@media (max-width: 768px) {
+    .section-label {
+        font-size: 40px;
+    }
+
+    .card-container a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-label {
+        font-size: 30px;
+    }
+
+    .card-container a {
+        font-size: 12px;
+    }
+}
