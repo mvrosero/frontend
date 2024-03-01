@@ -6,6 +6,8 @@ import Modal from 'react-bootstrap/Modal';
 import ModalBody from "react-bootstrap/ModalBody";
 import ModalFooter from "react-bootstrap/ModalFooter";
 
+import "./API.css";
+
 import Table from 'react-bootstrap/Table';
 
 export const API = () => {
@@ -22,9 +24,9 @@ export const API = () => {
     }
 
     return (
-        <div>
-        <h5> API Page </h5>
-        <div className="container">
+        <div className="api-table">
+        <h5> API PAGE </h5>
+        <div className="api-container">
             <div className="row">
                 <div className="col-12">
                 <Table striped bordered hover>
@@ -45,7 +47,7 @@ export const API = () => {
                                     <td>{row.title}</td>
                                     <td>{row.body}</td>
                                     <td>
-                                        Button Here
+                                    <Button className="api-button" href="api"> Button </Button>
                                     </td>
                                 </tr>
                             ))
@@ -53,11 +55,9 @@ export const API = () => {
                     }
                     </tbody>
                 </Table>
-
                 </div>
             </div>
         </div>
-
     </div>
     )
 }
