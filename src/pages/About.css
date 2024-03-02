@@ -1,0 +1,12 @@
+.about-body {
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+    .about-body {
+        margin-left: 20px; 
+        margin-right: 20px; 
+        margin-bottom: 30px; 
+    }
+}
