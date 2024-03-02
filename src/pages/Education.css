@@ -106,3 +106,18 @@ p {
         font-size: small;
     }
 }
+
+
+@media (max-width: 768px) {
+    .school-right-content {
+      font-size: 4px;
+      line-height: 1; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .school-right-content {
+      font-size: 2px;
+      line-height: 1; 
+    }
+  }

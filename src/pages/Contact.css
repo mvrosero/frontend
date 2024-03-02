@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300"); 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.contact-body {
+    padding-left: 100px;
+}
+  
+.contact-card {
+    width: 300px; 
+    height: 460px;
+    background-color: #ffdae9; 
+    margin-bottom: 100px;
+}
+  
+.contact-cards {
+    margin-top: 20px;
+}
+
+.contact-card .card-title {
+    font-size: 23px; 
+    color: #3e3e3e;
+    text-align: center; 
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+  
+.contact-card .card-text {
+    font-size: 17px; 
+    color: #666; 
+    text-align: center;
+    font-family: 'Quicksand'; 
+}
+  
+h1 {
+    text-align: center;
+}
+
